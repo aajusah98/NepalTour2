@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Bhaktapur_Darbar_Square"
+    android:orientation="vertical"
+    android:background="#FF21D4D4"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bhaktapur Durbar Square is the plaza in front of the royal palace of the old Bhaktapur Kingdom, 1,400 metres (4,600 ft) above sea level.
+        It is a UNESCO World Heritage Site.The Bhaktapur Durbar Square is located in the current town of Bhaktapur,
+        also known as Bhadgaon,which lies 13 km east of Kathmandu.While the complex consists of at least four distinct squares (Durbar Square,
+        Taumadhi Square, Dattatreya Square and Pottery Square)"
+
+            android:textSize="15dp"
+            android:layout_weight="1"
+
+            />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bhaktapurdurbarsquare"
+            android:layout_weight="1"
+            />
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu"
+            android:id="@+id/bnav"
+            android:layout_alignParentBottom="true"
+            >
+
+        </android.support.design.widget.BottomNavigationView>
+
+    </LinearLayout>
+
+</RelativeLayout>

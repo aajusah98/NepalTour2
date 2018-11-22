@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Swayembhunath"
+    android:background="#FF21D4D4"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Find peace and prayers on the little hillock of Swaymbhunath in
+     the northwest of the Kathmandu Valley.
+     Also known as the Monkey Temple
+     among visitors from abroad, Swayambhunath sits atop its hill,
+     overlooking most parts of the valley. This is a good place to catch panoramic views of the city. The site itself has stood as a hallmark of faith and harmony for centuries. The glory of Kathmandu Valley is said to have started from this point. "
+    android:textStyle="italic"
+    android:textSize="21dp"
+    android:justificationMode="inter_word"
+    android:layout_weight="1"
+
+    />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/swayambhunath"
+        android:layout_weight="80"
+        />
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:menu="@menu/menu"
+            android:id="@+id/bnav"
+            android:layout_alignParentBottom="true"
+            >
+
+        </android.support.design.widget.BottomNavigationView>
+</LinearLayout>
+</RelativeLayout>

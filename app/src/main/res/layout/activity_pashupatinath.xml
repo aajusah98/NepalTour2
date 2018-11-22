@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Pashupatinath"
+    android:background="#FF21D4D4" android:orientation="vertical"
+
+    >
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="One of the most sacred Hindu temples of Nepal – Pashupatinath Temple is located on both banks of Bagmati River on the eastern outskirts of Kathmandu.
+
+Pashupatinath is the most important temple dedicated to god Shiva. Every year this temple attracts hundreds of elderly followers of Hinduism.
+
+They arrive here to find shelter for the last several weeks of their lives, to meet death, be cremated on the banks of the river and travel their last journey with the waters of the sacred river Bagmati, which later meets the holy river Ganges. Hinduists from every corner of Nepal and India are arriving here to die.
+
+It is believed that those who die in Pashupatinath Temple are reborn as a human, regardless of any misconduct that could worsen their karma. The exact day of their death is predicted by astrologers of the temple. If you are attracted to the places where the spirit of death can be felt, then consider Pashupatinath as your first destination. It is a temple with special atmosphere of death; death is present in almost every ritual and every corner of it."
+        android:textSize="15dp"
+        android:layout_weight="1"
+        />
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location"
+        android:src="@drawable/pashupatinath"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"
+        ></ImageButton>
+
+            <android.support.design.widget.BottomNavigationView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:menu="@menu/menu"
+                android:id="@+id/bnav"
+                android:layout_alignParentBottom="true"
+                >
+
+            </android.support.design.widget.BottomNavigationView>
+
+        </LinearLayout>
+
+
+</RelativeLayout>
